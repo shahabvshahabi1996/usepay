@@ -52,3 +52,6 @@ span.text-bg {
     text-align : center;
 }
 
+.flex-column {
+    flex-direction: column;
+}
