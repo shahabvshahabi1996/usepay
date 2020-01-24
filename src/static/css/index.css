@@ -1,0 +1,54 @@
+@import "header.css";
+@import "font.css";
+@import "login.css";
+@import "card.css";
+
+
+/******************** Global Styles ***********************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 300;
+    background-color: #fff;
+}
+
+h1 , h2 , h3 , h4 , h5 {
+    /* background-color: #fff; */
+    letter-spacing: 2px;
+    line-height: 35px;
+    font-weight: bold;
+    /* line-height: 25px ; */
+}
+
+span.text-bg {
+    background-color: #fff;
+    padding: 2px 8px;
+    line-break: loose;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align : center;
+}
+

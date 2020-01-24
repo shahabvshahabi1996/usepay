@@ -1,0 +1,35 @@
+
+nav {
+    text-align: center;
+    background-color: #feca57;
+    margin: 0;
+    /* background-color: ; */
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+
+}
+nav > ul {
+    padding: 4px 16px;
+    margin: 0;
+}
+nav > ul li {
+    display: flex;
+    padding: 6px 8px;
+}
+
+nav > ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #252525;
+    /* color: #067df7; */
+}
+
+.brand {
+    font-size: 40px;
+    font-weight: bold;
+}
